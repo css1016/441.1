@@ -33,8 +33,9 @@ ul {
 }
 .form1{
     position:absolute;
-    left:1000px;
-    top:500px; 
+    left:8050px;
+    top:600px; 
+   font-size: 200%;
 }
 .bg{
   background-image: url("background.jpg");
