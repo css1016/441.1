@@ -60,20 +60,18 @@
       <div class="item4">Telephone number</div>
       <div class="item5">Email address</div>
     </div>
-
+    <script src="a.js"></script>
+    
     <img src='address.jpg' width="800"  height="600">
     
-    <div class="form1"><form action="/action_page.php">
-      <label for="fname">Name:</label><br>
-      <input type="text" id="fname" name="fname" value=""><br>
-      <label for="lname">Problem:</label><br>
-      <input type="text" id="lname" name="lname" value=""><br><br>
-      <label for="lname">Gender:</label><br>
-      <input type="text" id="lname" name="lname" value=""><br><br>
-      <label for="lname">Telephone number:</label><br>
-      <input type="number" id="lname" name="lname" value=""><br><br>
-
-      <input type="submit" value="Submit">
+    <div class="form1">
+      <form form1="myform" method="post" 
+      action="mailto:choucChotmail.com" onsubmit="returnvalidateform()" >  
+     Name: <input type="text" name="name"><br/>  
+     Gender: <input type="text" name=" gender"><br/>  
+     Problem: <input type="text" name="problem"><br/>  
+     Telephone number: <input type="number" name="telephonenumber"><br/>  
+     <input type="submit" value="register">  
     </form> 
 </div>
     </body>
