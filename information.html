@@ -74,6 +74,47 @@
      <input type="submit" value="register">  
     </form> 
 </div>
+
+
+
+
+
+<form onsubmit="return validateForm()" action="" method="post">
+  <script src="b.js"></script>
+  <fieldset class="bb1">
+      <legend>register:</legend>
+      <div class="row">
+          <label>username:</label>
+          <input type="text" class="mytext" name="name">
+          <span class="error" id="nameErr"></span>
+      </div>
+      <div class="row">
+          <label>password:</label>
+          <input type="password" class="mytext" name="pwd">
+          <span class="error" id="pwdErr"></span>
+      </div>
+      <div class="row">
+          <label>Email:</label>
+          <input type="text" class="mytext"  name="email">
+          <span class="error" id="emailErr"></span>
+      </div>
+      <div class="row">
+          <label>cell-phone number:</label>
+          <input type="text" class="mytext"  name="mobile" maxlength="11">
+          <span class="error" id="mobileErr"></span>
+      </div>
+      <div class="row">
+          <label>Verification Code:</label>
+          <input type="text" class="mytext" name="captcha" maxlength="4"><span id="captcha" onclick="getCaptcha()"></span>
+          <span class="error" id="captchaErr"></span>
+      </div>
+      <div class="row">
+          <input type="submit" class="mytext" value="register">
+      </div>
+  </fieldset>
+</form>
+
+
     </body>
 
 </body>
